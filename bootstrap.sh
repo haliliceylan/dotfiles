@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+exit
 cd ~/dotfiles;
 
 git pull origin main;
@@ -17,4 +17,3 @@ apk add --no-cache zsh
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh || true
 doIt;
 unset doIt;
-zsh
